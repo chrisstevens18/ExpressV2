@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script defer src="app.js"></script>
+  <title>My Website</title>
+</head>
+<body>
+  <div id="header">
+    <h1 id="h1">Welcome To Your Hobbie Tracker</h1>
+  </div>
+  <div>
+  <form id="hobbieForm" class="form1" method="post">
+    <label for="hobbies label">Enter the Name of the hobbie to add to Mvp</label><br>
+    <input  id="hobbieInput" name = "hobbies" type="text"><br>
+    <br>
+    <label for="description label">Enter the Description of the hobbie to add to Mvp</label><br>
+    <textarea id="textBox" name="description" rows="10" cols="26"></textarea>
+    <!-- <input name ="description" type="text" class="descriptionBox"><br> -->
+    <br>
+    <input type="submit" class="submitButton">
+    
+</form>
+</div>
+
+<div id="hobbieList">
+  <h1 class="hobbieHeader">Hobbie List</h1> 
+
+</div>
+    
+</body>
+</html>
