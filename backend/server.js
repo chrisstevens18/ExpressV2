@@ -7,7 +7,8 @@ app.use(express.json())
 app.use(cors());
 
 const client = new Client ({
-    connectionString: "postgres://postgres:postgrespw@localhost:49154/mvp_db"
+    connectionString: "postgres://memo_zqhk_user:VSN8JYivzLUf2izDvX8W9zajgcpkegn7@dpg-cd089oda4994l0df7b6g-a.oregon-postgres.render.com/memo_zqhk",
+    ssl: {rejectUnauthorized: false}
     
 });
 client.connect();
